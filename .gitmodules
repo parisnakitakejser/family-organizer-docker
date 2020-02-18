@@ -1,0 +1,6 @@
+[submodule "family-organizer-server"]
+	path = family-organizer-server
+	url = git@github.com:parisnakitakejser/family-organizer-server.git
+[submodule "family-organizer-client"]
+	path = family-organizer-client
+	url = git@github.com:parisnakitakejser/family-organizer-client.git
