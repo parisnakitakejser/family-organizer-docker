@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  mongo-4.2:
+    image: mongo:4.2
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongoadmin
+      MONGO_INITDB_ROOT_PASSWORD: secret
+    volumes:
+      - mongodata-4.2:/data/db
+      - ../backup:/backup
+    ports:
+      - 27017:27017
+volumes:
+  mongodata-4.2:
